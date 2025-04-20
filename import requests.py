@@ -1,47 +1,45 @@
 import requests
-import sqlite3
+import json 
+import time 
 
-# Make API request for full page HTML content
-url = "https://en.wikipedia.org/w/api.php"
-params = {
-    "action": "parse",
-    "page": "Tourism_in_the_United_States",
-    "format": "json",
-    "prop": "wikitext"  # pull the raw wikitext
-}
+# I made an account to download a free API key from Nutritionix
+#Below are my personal credentials 
 
-response = requests.get(url, params=params)
-data = response.json()
-wikitext = data["parse"]["wikitext"]["*"]
+app_id = "7b857982"
+app_key = "147987eb843d733fd4bd746545c15e0d"
 
+#searching nutrition info for each popular meal 
+def search_food(food_item): 
+    url = "https://trackapi.nutritionix.com/v2/natural/nutrients"
 
+    headers = {
+        "x-app-id": app_id,
+        "x-app-key": app_key,
+        "Content-Type": "application/json",
+    }
 
-# Manually collected data 
-city_data = {
-    "New York City": 65.2,
-    "Miami": 24.2,
-    "Los Angeles": 50.1,
-    "Orlando": 75.0,
-    "Las Vegas": 42.5,
-    "Chicago": 57.6
-}
+    data = {
+        "query": food_item
+    }
 
-conn = sqlite3.connect('tourism_data.db')
-cur = conn.cursor()
+    response = requests.post(url, headers=headers, json=data)
 
-cur.execute('''
-    CREATE TABLE IF NOT EXISTS Tourism (
-        city TEXT PRIMARY KEY,
-        tourists_millions REAL
-    )
-''')
+    if response.status_code == 200: #status code 200 means the request worked
+        result = response.json()
+        if result["foods"]: 
+            food = result["food"] #this is jgoing to accept the first match of the search
+            #print nutrition info
+            print(f"Nutrition info for: {food['food_name'].title()}")
+            print(f"Calories: {food['nf_calories']} kcal")
+            print(f"Total fat: {food['nf_total_fat']} grams")
+            print(f"Sugar: {food['nf_sugars']} grams")
+            print(f"Protein: {food['nf_protein']} grams")
+        else: 
+            print("No results found")
+    else:
+        print("Error:", response.status_code, response.text)
+    
+#sample practice: 
+search_food("French fries")
 
-for city, visitors in city_data.items():
-    cur.execute("INSERT OR IGNORE INTO Tourism (city, tourists_millions) VALUES (?, ?)", (city, visitors))
-
-conn.commit()
-conn.close()
-#printing daya from the Wikipedia site
-print("\n Stored the following U.S. city tourism numbers in the database:")
-for city, visitors in city_data.items():
-    print(f"{city}: {visitors} million visitors")
+        
