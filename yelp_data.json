@@ -1,362 +1,193 @@
+
+
 [
     {
-        "name": "The Mayfly",
-        "cuisine": "American",
-        "rating": 4.4,
-        "city": "New York City"
+        "restaurant name": "Lan City Handpulled Noodle",
+        "cuisine": "Chinese",
+        "rating": 4.2,
+        "Popular_dish": "Scallion Pancake"
     },
     {
-        "name": "Brickyard Craft Kitchen and Bar",
+        "restaurant name": "Sava's",
         "cuisine": "American",
-        "rating": 4.4,
-        "city": "New York City"
+        "rating": 3.9,
+        "Popular_dish": "Bang Bang Shrimp"
     },
     {
-        "name": "The Ellington",
-        "cuisine": "American",
-        "rating": 4.6,
-        "city": "New York City"
-    },
-    {
-        "name": "Monkey Bar",
-        "cuisine": "American",
-        "rating": 4.3,
-        "city": "New York City"
-    },
-    {
-        "name": "Bourbon and Branch",
-        "cuisine": "American",
-        "rating": 4.4,
-        "city": "New York City"
-    },
-    {
-        "name": "Nobody Told Me",
-        "cuisine": "American",
-        "rating": 4.4,
-        "city": "New York City"
-    },
-    {
-        "name": "Gair",
-        "cuisine": "American",
-        "rating": 4.6,
-        "city": "New York City"
-    },
-    {
-        "name": "RH Rooftop Restaurant at RH New York",
-        "cuisine": "American",
+        "restaurant name": "Aventura",
+        "cuisine": "Spanish",
         "rating": 4.1,
-        "city": "New York City"
+        "Popular_dish": "Patatas Bravas"
     },
     {
-        "name": "Bee's Knees & Honey Lounge",
-        "cuisine": "American",
+        "restaurant name": "Frita Batidos",
+        "cuisine": "Cuban",
+        "rating": 4.4,
+        "Popular_dish": "Cheeseburger"
+    },
+    {
+        "restaurant name": "Spencer",
+        "cuisine": "New American",
+        "rating": 4.4,
+        "Popular_dish": "Trout"
+    },
+    {
+        "restaurant name": "HanJan Pocha",
+        "cuisine": "Korean",
+        "rating": 4.0,
+        "Popular_dish": "Fried Chicken"
+    },
+    {
+        "restaurant name": "Bao Space",
+        "cuisine": "Chinese",
+        "rating": 4.6,
+        "Popular_dish": "Pork bun"
+    },
+    {
+        "restaurant name": "Azalea",
+        "cuisine": "Japanese",
+        "rating": 4.2,
+        "Popular_dish": "Spicy Tuna Crispy Rice"
+    },
+    {
+        "restaurant name": "Miss Kim",
+        "cuisine": "Korean",
+        "rating": 4.0,
+        "Popular_dish": "Fried Rice"
+    },
+    {
+        "restaurant name": "Pacific Rim",
+        "cuisine": "Asian Fusion",
+        "rating": 4.1,
+        "Popular_dish": "Spring Rolls"
+    },
+    {
+        "restaurant name": "Taste Kitchen",
+        "cuisine": "Seafood",
+        "rating": 4.2,
+        "Popular_dish": "fish taco"
+    },
+    {
+        "restaurant name": "Echelon Kitchen and Bar",
+        "cuisine": "New American",
         "rating": 4.5,
-        "city": "New York City"
+        "Popular_dish": "Bucatini"
     },
     {
-        "name": "Park Avenue Tavern",
+        "restaurant name": "Dixboro Project",
         "cuisine": "American",
-        "rating": 4.0,
-        "city": "New York City"
+        "rating": 4.2,
+        "Popular_dish": "Pizza"
     },
     {
-        "name": "Emily",
-        "cuisine": "American",
-        "rating": 4.0,
-        "city": "New York City"
-    },
-    {
-        "name": "Friend of A Farmer - Upper West Side",
-        "cuisine": "American",
-        "rating": 4.3,
-        "city": "New York City"
-    },
-    {
-        "name": "Red Hook Tavern",
-        "cuisine": "American",
+        "restaurant name": "Rappourt",
+        "cuisine": "Burgers",
         "rating": 4.1,
-        "city": "New York City"
+        "Popular_dish": "Chicken Tenders"
     },
     {
-        "name": "Frying Pan - NYC",
+        "restaurant name": "Side Biscuit",
+        "cuisine": "N/A",
+        "rating": 4.3,
+        "Popular_dish": "Biscuit"
+    },
+    {
+        "restaurant name": "Union Rec",
+        "cuisine": "N/A",
+        "rating": 3.8,
+        "Popular_dish": "Pulled Pork"
+    },
+    {
+        "restaurant name": "First Bite",
+        "cuisine": "N/A",
+        "rating": 4.6,
+        "Popular_dish": "French toast"
+    },
+    {
+        "restaurant name": "The Chop House",
+        "cuisine": "Steakhouse",
+        "rating": 3.9,
+        "Popular_dish": "Filet Mignon"
+    },
+    {
+        "restaurant name": "Stray Hen Cafe",
+        "cuisine": "Breakfast & Brunch",
+        "rating": 4.4,
+        "Popular_dish": "Avocado Toast"
+    },
+    {
+        "restaurant name": "The Jagged Fork",
+        "cuisine": "Breakfast & Brunch",
+        "rating": 4.0,
+        "Popular_dish": "Huevos Rancheros"
+    },
+    {
+        "restaurant name": "Zingerman's Delicatessen",
+        "cuisine": "Sandwiches",
+        "rating": 4.0,
+        "Popular_dish": "Reuben Sandwich"
+    },
+    {
+        "restaurant name": "Jolly Pumpkin Café & Brewery",
+        "cuisine": "American",
+        "rating": 3.9,
+        "Popular_dish": "Pizza"
+    },
+    {
+        "restaurant name": "Slurping Turtle",
+        "cuisine": "Sushi",
+        "rating": 3.8,
+        "Popular_dish": "Ramen"
+    },
+    {
+        "restaurant name": "Tomukun Noodle Bar",
+        "cuisine": "Noodles",
+        "rating": 3.8,
+        "Popular_dish": "Pork Bun"
+    },
+    {
+        "restaurant name": "Chapala Mexican Restaurant",
+        "cuisine": "Tacos",
+        "rating": 3.8,
+        "Popular_dish": "Quesadilla"
+    },
+    {
+        "restaurant name": "Biercamp",
+        "cuisine": "Meat Shops",
+        "rating": 4.6,
+        "Popular_dish": "Brisket sandwich"
+    },{
+        "restaurant name": "Zingerman's Roadhouse",
+        "cuisine": "Breakfast & Brunch",
+        "rating": 3.7,
+        "Popular_dish": "Poutine"
+    },{
+        "restaurant name": "Anna's House",
+        "cuisine": "Breakfast & Brunch",
+        "rating": 4.0,
+        "Popular_dish": "lasagna"
+    },{
+        "restaurant name": "The Ravens Club",
         "cuisine": "American",
         "rating": 3.8,
-        "city": "New York City"
+        "Popular_dish": "Deviled Eggs"
     },
     {
-        "name": "Jacob's Pickles",
-        "cuisine": "American",
-        "rating": 4.2,
-        "city": "New York City"
-    },
-    {
-        "name": "Virginia's",
-        "cuisine": "American",
-        "rating": 4.4,
-        "city": "New York City"
-    },
-    {
-        "name": "The Red Stache",
-        "cuisine": "American",
-        "rating": 4.8,
-        "city": "New York City"
-    },
-    {
-        "name": "Winona's",
-        "cuisine": "American",
-        "rating": 4.6,
-        "city": "New York City"
-    },
-    {
-        "name": "Bstro 38",
-        "cuisine": "American",
-        "rating": 4.5,
-        "city": "New York City"
-    },
-    {
-        "name": "Industry Kitchen",
-        "cuisine": "American",
-        "rating": 3.7,
-        "city": "New York City"
-    },
-    {
-        "name": "Fixins Soul Kitchen - Los Angeles",
-        "cuisine": "American",
-        "rating": 4.4,
-        "city": "Los Angeles"
-    },
-    {
-        "name": "The Front Yard",
-        "cuisine": "American",
-        "rating": 4.0,
-        "city": "Los Angeles"
-    },
-    {
-        "name": "71 Above",
-        "cuisine": "American",
-        "rating": 4.0,
-        "city": "Los Angeles"
-    },
-    {
-        "name": "Le Grand",
-        "cuisine": "American",
-        "rating": 4.0,
-        "city": "Los Angeles"
-    },
-    {
-        "name": "Heavy Handed",
-        "cuisine": "American",
-        "rating": 4.5,
-        "city": "Los Angeles"
-    },
-    {
-        "name": "Pijja Palace",
-        "cuisine": "American",
-        "rating": 4.0,
-        "city": "Los Angeles"
-    },
-    {
-        "name": "Johnny's Pastrami",
-        "cuisine": "American",
-        "rating": 4.0,
-        "city": "Los Angeles"
-    },
-    {
-        "name": "Nicolas Eatery",
-        "cuisine": "American",
-        "rating": 4.6,
-        "city": "Los Angeles"
-    },
-    {
-        "name": "Howlin' Ray's",
-        "cuisine": "American",
-        "rating": 4.7,
-        "city": "Los Angeles"
-    },
-    {
-        "name": "The Hollywood Rooftop Restaurant & Bar",
-        "cuisine": "American",
-        "rating": 4.7,
-        "city": "Los Angeles"
-    },
-    {
-        "name": "Musso & Frank Grill",
-        "cuisine": "American",
-        "rating": 4.2,
-        "city": "Los Angeles"
-    },
-    {
-        "name": "Fanny's",
-        "cuisine": "American",
-        "rating": 3.9,
-        "city": "Los Angeles"
-    },
-    {
-        "name": "Wife and the Somm",
-        "cuisine": "American",
-        "rating": 4.4,
-        "city": "Los Angeles"
-    },
-    {
-        "name": "Dunsmoor",
-        "cuisine": "American",
-        "rating": 4.4,
-        "city": "Los Angeles"
-    },
-    {
-        "name": "Founder's Room",
-        "cuisine": "American",
-        "rating": 5.0,
-        "city": "Los Angeles"
-    },
-    {
-        "name": "Craig's",
-        "cuisine": "American",
-        "rating": 3.9,
-        "city": "Los Angeles"
-    },
-    {
-        "name": "Cassell's Hamburgers",
-        "cuisine": "American",
-        "rating": 4.6,
-        "city": "Los Angeles"
-    },
-    {
-        "name": "Stout Burgers & Beers",
-        "cuisine": "American",
-        "rating": 4.0,
-        "city": "Los Angeles"
-    },
-    {
-        "name": "Cocina Vino",
-        "cuisine": "American",
-        "rating": 5.0,
-        "city": "Los Angeles"
-    },
-    {
-        "name": "The Benjamin Hollywood",
-        "cuisine": "American",
-        "rating": 4.0,
-        "city": "Los Angeles"
-    },
-    {
-        "name": "Au Cheval",
-        "cuisine": "American",
-        "rating": 4.4,
-        "city": "Chicago"
-    },
-    {
-        "name": "Trivoli Tavern",
-        "cuisine": "American",
-        "rating": 4.5,
-        "city": "Chicago"
-    },
-    {
-        "name": "The VIG Chicago",
-        "cuisine": "American",
-        "rating": 4.1,
-        "city": "Chicago"
-    },
-    {
-        "name": "Little Bad Wolf",
-        "cuisine": "American",
-        "rating": 4.4,
-        "city": "Chicago"
-    },
-    {
-        "name": "The Evie",
-        "cuisine": "American",
-        "rating": 4.6,
-        "city": "Chicago"
-    },
-    {
-        "name": "Longman & Eagle",
-        "cuisine": "American",
-        "rating": 4.1,
-        "city": "Chicago"
-    },
-    {
-        "name": "Desert Hawk",
-        "cuisine": "American",
-        "rating": 4.7,
-        "city": "Chicago"
-    },
-    {
-        "name": "River Roast",
-        "cuisine": "American",
-        "rating": 4.0,
-        "city": "Chicago"
-    },
-    {
-        "name": "The Welcome Back Lounge",
-        "cuisine": "American",
-        "rating": 4.5,
-        "city": "Chicago"
-    },
-    {
-        "name": "The Kitchen American Bistro",
-        "cuisine": "American",
-        "rating": 3.9,
-        "city": "Chicago"
-    },
-    {
-        "name": "Small Cheval - Wicker Park",
-        "cuisine": "American",
+        "restaurant name": "Iggy's Eggies",
+        "cuisine": "Breakfast & Brunch",
         "rating": 4.3,
-        "city": "Chicago"
+        "Popular_dish": "sausage egg and cheese sandwich"
     },
     {
-        "name": "Tala House",
-        "cuisine": "American",
-        "rating": 4.6,
-        "city": "Chicago"
-    },
-    {
-        "name": "Lucy's",
-        "cuisine": "American",
-        "rating": 3.9,
-        "city": "Chicago"
-    },
-    {
-        "name": "Blue Door Kitchen & Garden",
-        "cuisine": "American",
-        "rating": 4.0,
-        "city": "Chicago"
-    },
-    {
-        "name": "Crosby's Kitchen",
-        "cuisine": "American",
-        "rating": 4.0,
-        "city": "Chicago"
-    },
-    {
-        "name": "The Lakefront Restaurant",
-        "cuisine": "American",
-        "rating": 3.7,
-        "city": "Chicago"
-    },
-    {
-        "name": "Cafe Robey",
-        "cuisine": "American",
-        "rating": 4.1,
-        "city": "Chicago"
-    },
-    {
-        "name": "RJ Grunts",
-        "cuisine": "American",
-        "rating": 3.8,
-        "city": "Chicago"
-    },
-    {
-        "name": "Prime & Provisions Steakhouse",
-        "cuisine": "American",
+        "restaurant name": "Kanbu Sushi Downtown",
+        "cuisine": "Japanese",
         "rating": 4.3,
-        "city": "Chicago"
+        "Popular_dish": "Spicy Tuna Roll"
     },
     {
-        "name": "Remington's",
-        "cuisine": "American",
-        "rating": 4.2,
-        "city": "Chicago"
-    },
+        "restaurant name": "Ondo Bakery & Cafe",
+        "cuisine": "Bakery",
+        "rating": 4.4,
+        "Popular_dish": "croissant"
+    }
 ]
