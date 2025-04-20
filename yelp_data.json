@@ -1,0 +1,362 @@
+[
+    {
+        "name": "The Mayfly",
+        "cuisine": "American",
+        "rating": 4.4,
+        "city": "New York City"
+    },
+    {
+        "name": "Brickyard Craft Kitchen and Bar",
+        "cuisine": "American",
+        "rating": 4.4,
+        "city": "New York City"
+    },
+    {
+        "name": "The Ellington",
+        "cuisine": "American",
+        "rating": 4.6,
+        "city": "New York City"
+    },
+    {
+        "name": "Monkey Bar",
+        "cuisine": "American",
+        "rating": 4.3,
+        "city": "New York City"
+    },
+    {
+        "name": "Bourbon and Branch",
+        "cuisine": "American",
+        "rating": 4.4,
+        "city": "New York City"
+    },
+    {
+        "name": "Nobody Told Me",
+        "cuisine": "American",
+        "rating": 4.4,
+        "city": "New York City"
+    },
+    {
+        "name": "Gair",
+        "cuisine": "American",
+        "rating": 4.6,
+        "city": "New York City"
+    },
+    {
+        "name": "RH Rooftop Restaurant at RH New York",
+        "cuisine": "American",
+        "rating": 4.1,
+        "city": "New York City"
+    },
+    {
+        "name": "Bee's Knees & Honey Lounge",
+        "cuisine": "American",
+        "rating": 4.5,
+        "city": "New York City"
+    },
+    {
+        "name": "Park Avenue Tavern",
+        "cuisine": "American",
+        "rating": 4.0,
+        "city": "New York City"
+    },
+    {
+        "name": "Emily",
+        "cuisine": "American",
+        "rating": 4.0,
+        "city": "New York City"
+    },
+    {
+        "name": "Friend of A Farmer - Upper West Side",
+        "cuisine": "American",
+        "rating": 4.3,
+        "city": "New York City"
+    },
+    {
+        "name": "Red Hook Tavern",
+        "cuisine": "American",
+        "rating": 4.1,
+        "city": "New York City"
+    },
+    {
+        "name": "Frying Pan - NYC",
+        "cuisine": "American",
+        "rating": 3.8,
+        "city": "New York City"
+    },
+    {
+        "name": "Jacob's Pickles",
+        "cuisine": "American",
+        "rating": 4.2,
+        "city": "New York City"
+    },
+    {
+        "name": "Virginia's",
+        "cuisine": "American",
+        "rating": 4.4,
+        "city": "New York City"
+    },
+    {
+        "name": "The Red Stache",
+        "cuisine": "American",
+        "rating": 4.8,
+        "city": "New York City"
+    },
+    {
+        "name": "Winona's",
+        "cuisine": "American",
+        "rating": 4.6,
+        "city": "New York City"
+    },
+    {
+        "name": "Bstro 38",
+        "cuisine": "American",
+        "rating": 4.5,
+        "city": "New York City"
+    },
+    {
+        "name": "Industry Kitchen",
+        "cuisine": "American",
+        "rating": 3.7,
+        "city": "New York City"
+    },
+    {
+        "name": "Fixins Soul Kitchen - Los Angeles",
+        "cuisine": "American",
+        "rating": 4.4,
+        "city": "Los Angeles"
+    },
+    {
+        "name": "The Front Yard",
+        "cuisine": "American",
+        "rating": 4.0,
+        "city": "Los Angeles"
+    },
+    {
+        "name": "71 Above",
+        "cuisine": "American",
+        "rating": 4.0,
+        "city": "Los Angeles"
+    },
+    {
+        "name": "Le Grand",
+        "cuisine": "American",
+        "rating": 4.0,
+        "city": "Los Angeles"
+    },
+    {
+        "name": "Heavy Handed",
+        "cuisine": "American",
+        "rating": 4.5,
+        "city": "Los Angeles"
+    },
+    {
+        "name": "Pijja Palace",
+        "cuisine": "American",
+        "rating": 4.0,
+        "city": "Los Angeles"
+    },
+    {
+        "name": "Johnny's Pastrami",
+        "cuisine": "American",
+        "rating": 4.0,
+        "city": "Los Angeles"
+    },
+    {
+        "name": "Nicolas Eatery",
+        "cuisine": "American",
+        "rating": 4.6,
+        "city": "Los Angeles"
+    },
+    {
+        "name": "Howlin' Ray's",
+        "cuisine": "American",
+        "rating": 4.7,
+        "city": "Los Angeles"
+    },
+    {
+        "name": "The Hollywood Rooftop Restaurant & Bar",
+        "cuisine": "American",
+        "rating": 4.7,
+        "city": "Los Angeles"
+    },
+    {
+        "name": "Musso & Frank Grill",
+        "cuisine": "American",
+        "rating": 4.2,
+        "city": "Los Angeles"
+    },
+    {
+        "name": "Fanny's",
+        "cuisine": "American",
+        "rating": 3.9,
+        "city": "Los Angeles"
+    },
+    {
+        "name": "Wife and the Somm",
+        "cuisine": "American",
+        "rating": 4.4,
+        "city": "Los Angeles"
+    },
+    {
+        "name": "Dunsmoor",
+        "cuisine": "American",
+        "rating": 4.4,
+        "city": "Los Angeles"
+    },
+    {
+        "name": "Founder's Room",
+        "cuisine": "American",
+        "rating": 5.0,
+        "city": "Los Angeles"
+    },
+    {
+        "name": "Craig's",
+        "cuisine": "American",
+        "rating": 3.9,
+        "city": "Los Angeles"
+    },
+    {
+        "name": "Cassell's Hamburgers",
+        "cuisine": "American",
+        "rating": 4.6,
+        "city": "Los Angeles"
+    },
+    {
+        "name": "Stout Burgers & Beers",
+        "cuisine": "American",
+        "rating": 4.0,
+        "city": "Los Angeles"
+    },
+    {
+        "name": "Cocina Vino",
+        "cuisine": "American",
+        "rating": 5.0,
+        "city": "Los Angeles"
+    },
+    {
+        "name": "The Benjamin Hollywood",
+        "cuisine": "American",
+        "rating": 4.0,
+        "city": "Los Angeles"
+    },
+    {
+        "name": "Au Cheval",
+        "cuisine": "American",
+        "rating": 4.4,
+        "city": "Chicago"
+    },
+    {
+        "name": "Trivoli Tavern",
+        "cuisine": "American",
+        "rating": 4.5,
+        "city": "Chicago"
+    },
+    {
+        "name": "The VIG Chicago",
+        "cuisine": "American",
+        "rating": 4.1,
+        "city": "Chicago"
+    },
+    {
+        "name": "Little Bad Wolf",
+        "cuisine": "American",
+        "rating": 4.4,
+        "city": "Chicago"
+    },
+    {
+        "name": "The Evie",
+        "cuisine": "American",
+        "rating": 4.6,
+        "city": "Chicago"
+    },
+    {
+        "name": "Longman & Eagle",
+        "cuisine": "American",
+        "rating": 4.1,
+        "city": "Chicago"
+    },
+    {
+        "name": "Desert Hawk",
+        "cuisine": "American",
+        "rating": 4.7,
+        "city": "Chicago"
+    },
+    {
+        "name": "River Roast",
+        "cuisine": "American",
+        "rating": 4.0,
+        "city": "Chicago"
+    },
+    {
+        "name": "The Welcome Back Lounge",
+        "cuisine": "American",
+        "rating": 4.5,
+        "city": "Chicago"
+    },
+    {
+        "name": "The Kitchen American Bistro",
+        "cuisine": "American",
+        "rating": 3.9,
+        "city": "Chicago"
+    },
+    {
+        "name": "Small Cheval - Wicker Park",
+        "cuisine": "American",
+        "rating": 4.3,
+        "city": "Chicago"
+    },
+    {
+        "name": "Tala House",
+        "cuisine": "American",
+        "rating": 4.6,
+        "city": "Chicago"
+    },
+    {
+        "name": "Lucy's",
+        "cuisine": "American",
+        "rating": 3.9,
+        "city": "Chicago"
+    },
+    {
+        "name": "Blue Door Kitchen & Garden",
+        "cuisine": "American",
+        "rating": 4.0,
+        "city": "Chicago"
+    },
+    {
+        "name": "Crosby's Kitchen",
+        "cuisine": "American",
+        "rating": 4.0,
+        "city": "Chicago"
+    },
+    {
+        "name": "The Lakefront Restaurant",
+        "cuisine": "American",
+        "rating": 3.7,
+        "city": "Chicago"
+    },
+    {
+        "name": "Cafe Robey",
+        "cuisine": "American",
+        "rating": 4.1,
+        "city": "Chicago"
+    },
+    {
+        "name": "RJ Grunts",
+        "cuisine": "American",
+        "rating": 3.8,
+        "city": "Chicago"
+    },
+    {
+        "name": "Prime & Provisions Steakhouse",
+        "cuisine": "American",
+        "rating": 4.3,
+        "city": "Chicago"
+    },
+    {
+        "name": "Remington's",
+        "cuisine": "American",
+        "rating": 4.2,
+        "city": "Chicago"
+    },
+]
