@@ -132,3 +132,15 @@ def load_data_for_viz():
     """, conn)
     conn.close()
     return df
+
+# making 3 graphs: top meals, calories vs rating, macro breakdown
+def make_visuals():
+    df = load_data_for_viz()
+
+    # bar chart: top 10 meals by rating
+    top10 = df.sort_values("rating", ascending=False).head(10)
+    sns.barplot(data=top10, x="name", y="rating")
+    plt.xticks(rotation=45, ha='right')
+    plt.title("Top 10 Meals by Rating")
+    plt.tight_layout()
+    plt.show()
