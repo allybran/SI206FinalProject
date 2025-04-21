@@ -189,5 +189,264 @@
         "cuisine": "Bakery",
         "rating": 4.4,
         "Popular_dish": "croissant"
-    }
+    },
+    {
+        "restaurant name": "Spiedo",
+        "cuisine": "Middle Eastern",
+        "rating": 4.8,
+        "Popular_dish": "tofu bowl"
+    },
+    {
+        "restaurant name": "The Seoul",
+        "cuisine": "Korean",
+        "rating": 4.2,
+        "Popular_dish": "Popcorn chicken"
+    },
+    {
+        "restaurant name": "Peridot",
+        "cuisine": "Vietnamese",
+        "rating": 4.2,
+        "Popular_dish": "Crab fried rice"
+    },
+    {
+        "restaurant name": "Bellflower",
+        "cuisine": "New American",
+        "rating": 4.6,
+        "Popular_dish": "Pork chops"
+    },
+    {
+        "restaurant name": "Mani Osteria & Bar",
+        "cuisine": "Italian",
+        "rating": 4.2,
+        "Popular_dish": "Blueberry Waffles"
+    },
+    {
+        "restaurant name": "The West End Grill",
+        "cuisine": "American",
+        "rating": 3.9,
+        "Popular_dish": "Sea Bass"
+    },
+    {
+        "restaurant name": "Ricewood",
+        "cuisine": "Barbeque",
+        "rating": 4.6,
+        "Popular_dish": "Pork Belly"
+    },
+    {
+        "restaurant name": "Casablanca",
+        "cuisine": "Mediterranean",
+        "rating": 4.6,
+        "Popular_dish": "Bistilla"
+    },
+    {
+        "restaurant name": "Thompson & Co",
+        "cuisine": "New American",
+        "rating": 4.1,
+        "Popular_dish": "Fried Chicken"
+    },
+    {
+        "restaurant name": "The Boro",
+        "cuisine": "Breakfast & Brunch",
+        "rating": 3.9,
+        "Popular_dish": "Chocolate croissant"
+    },
+    {
+        "restaurant name": "Vinology Restaurant & Event Space",
+        "cuisine": "New American",
+        "rating": 3.9,
+        "Popular_dish": "Beef short ribs"
+    },
+    {
+        "restaurant name": "Basil Babe",
+        "cuisine": "Thai",
+        "rating": 4.4,
+        "Popular_dish": "Pad thai"
+    },
+    {
+        "restaurant name": "Monahan's seafood market",
+        "cuisine": "Seafood",
+        "rating": 4.6,
+        "Popular_dish": "fish and chips"
+    },
+    {
+        "restaurant name": "Tomukun Korean Barbeque",
+        "cuisine": "Korean",
+        "rating": 4.0,
+        "Popular_dish": "short rib soup"
+    },
+    {
+        "restaurant name": "Gandy Dancer",
+        "cuisine": "Seafood",
+        "rating": 3.6,
+        "Popular_dish": "Crab cakes"
+    },
+    {
+        "restaurant name": "Sidetrack Bar and Grill",
+        "cuisine": "Burgers",
+        "rating": 3.8,
+        "Popular_dish": "bean burger"
+    },
+    {
+        "restaurant name": "Pizza House",
+        "cuisine": "American",
+        "rating": 3.2,
+        "Popular_dish": "deep dish pizza"
+    },
+    {
+        "restaurant name": "One Bowl Asian Cuisine",
+        "cuisine": "Vietnamese",
+        "rating": 3.7,
+        "Popular_dish": "Ramen"
+    },
+    {
+        "restaurant name": "Rich JC",
+        "cuisine": "Korean",
+        "rating": 4.1,
+        "Popular_dish": "tofu ramen"
+    },
+    {
+        "restaurant name": "Sadako Japanese Restaurant",
+        "cuisine": "Japanese",
+        "rating": 3.5,
+        "Popular_dish": "Spicy Salmon roll"
+    },
+    {
+        "restaurant name": "Joe's Pizza",
+        "cuisine": "Pizza",
+        "rating": 4.3,
+        "Popular_dish": "cheese pizza"
+    },
+    {
+        "restaurant name": "Totoro",
+        "cuisine": "Japanese",
+        "rating": 3.7,
+        "Popular_dish": "California roll"
+    },
+    {
+        "restaurant name": "Ashley's Restaurant",
+        "cuisine": "American",
+        "rating": 3.7,
+        "Popular_dish": "Burger"
+    },
+    {
+        "restaurant name": "Hola Seoul",
+        "cuisine": "Korean",
+        "rating": 4.1,
+        "Popular_dish": "fried chicken"
+    },
+    {
+        "restaurant name": "Hopcat",
+        "cuisine": "Burgers",
+        "rating": 3.4,
+        "Popular_dish": "cheese fries"
+    },
+    {
+        "restaurant name": "Bigalora Wood Fired Cucina",
+        "cuisine": "Italian",
+        "rating": 3.5,
+        "Popular_dish": "gelato"
+    },
+    {
+        "restaurant name": "sweetgreen",
+        "cuisine": "Salad",
+        "rating": 4.3,
+        "Popular_dish": "pesto parm salad"
+    },
+    {
+        "restaurant name": "Zola Bistro",
+        "cuisine": "French",
+        "rating": 2.8,
+        "Popular_dish": "Short Ribs"
+    },
+    {
+        "restaurant name": "Shake Shack Ann Arbor",
+        "cuisine": "Burgers",
+        "rating": 3.6,
+        "Popular_dish": "Burger"
+    },
+    {
+        "restaurant name": "Satchel's BBQ",
+        "cuisine": "Barbeque",
+        "rating": 4.1,
+        "Popular_dish": "Pulled Pork Sandwich"
+    },
+    {
+        "restaurant name": "Avalon Cafe and Kitchen",
+        "cuisine": "Breakfast & Brunch",
+        "rating": 3.9,
+        "Popular_dish": "Avocado Toast"
+    },
+    {
+        "restaurant name": "Franks Restaurant",
+        "cuisine": "Breakfast & Brunch",
+        "rating": 4.0,
+        "Popular_dish": "French Toash"
+    },
+    {
+        "restaurant name": "The Pretzel Bell",
+        "cuisine": "New American",
+        "rating": 3.4,
+        "Popular_dish": "Soft pretzel"
+    },
+    {
+        "restaurant name": "MaMa Satto",
+        "cuisine": "Japanese",
+        "rating": 3.4,
+        "Popular_dish": "Dragon roll"
+    },
+    {
+        "restaurant name": "BTB Burrito",
+        "cuisine": "Mexican",
+        "rating": 3.2,
+        "Popular_dish": "Steak Burrito"
+    },
+    {
+        "restaurant name": "Poke Poke - Sushi Unrolled",
+        "cuisine": "Poke",
+        "rating": 2.7,
+        "Popular_dish": "Poke bowl"
+    },
+    {
+        "restaurant name": "Casey's Tavern",
+        "cuisine": "American",
+        "rating": 3.9,
+        "Popular_dish": "Fried Artichoke"
+    },
+    {
+        "restaurant name": "The Blue Nile",
+        "cuisine": "Ethiopian",
+        "rating": 3.7,
+        "Popular_dish": "red lentils"
+    },
+    {
+        "restaurant name": "KOSMO's Bop Shop",
+        "cuisine": "Korean",
+        "rating": 4.2,
+        "Popular_dish": "beef bibimbap"
+    },
+    {
+        "restaurant name": "Condado Tacos",
+        "cuisine": "Tacos",
+        "rating": 3.5,
+        "Popular_dish": "queso"
+    },
+    {
+        "restaurant name": "Cantina Taqueria",
+        "cuisine": "Tacos",
+        "rating": ,
+        "Popular_dish": ""
+    },
+    {
+        "restaurant name": "",
+        "cuisine": "",
+        "rating": ,
+        "Popular_dish": ""
+    },
+    {
+        "restaurant name": "",
+        "cuisine": "",
+        "rating": ,
+        "Popular_dish": ""
+    },
+
 ]
