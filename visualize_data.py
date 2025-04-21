@@ -29,6 +29,12 @@ def make_visuals(): #creating graphs
     plt.tight_layout()
     plt.show()
 
+     # Scatterplot - calories vs popularity
+    sns.scatterplot(data=df, x="calories", y="popularity")
+    plt.title("Calories vs Popularity")
+    plt.tight_layout()
+    plt.show()
+
 
 
 
