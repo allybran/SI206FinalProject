@@ -110,6 +110,7 @@ conn.close()
 
 <<<<<<< HEAD
 #combine meal + nutrition data and write it to a text file
+#edit
 def process_data():
     conn = sqlite3.connect("meals.db")
     cur = conn.cursor()
