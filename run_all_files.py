@@ -1,0 +1,6 @@
+
+import creating_tables
+import proccess_data
+import get_nutrtitionix_data
+import get_spoonacular_data
+import visualize_data
