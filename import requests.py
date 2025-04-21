@@ -84,16 +84,20 @@ def get_nutrition_facts():
         "Content-Type": "application/json",
     }
     url = "https://trackapi.nutritionix.com/v2/natural/nutrients" 
-    count = 0 #keeping track of how many foods i put into the api
+    count = 0 #keeping track of how many foods i put into the api 
     
-    for meal_id, food_item in meals: 
+    for meal_id, food_item in meals: #loop through each meal in the database
         try: 
             response =requests.post(url, headers=headers, json={"query":food_item})
             food = response.json()["foods"][0] #this is going to accept the first match of the search
             cur.execute("""
                 INSERT OR IGNORE INTO Nutrition (meal_id, calories, fat_grams, sugar_grams, protein_grams)
                 VALUES (?, ?, ?, ?, ?)
-        """,(meal_id, food["nf_calories"], food["nf_total_fat"], food["nf_sugars"], food["nf_protein"]))
-        count += 1 
-        if count >= 25: 
-            break
+            """,(meal_id, food["nf_calories"], food["nf_total_fat"], food["nf_sugars"], food["nf_protein"]))
+            count += 1 
+            if count >= 25: 
+                break
+        except: 
+            continue
+conn.commit()
+conn.close()
