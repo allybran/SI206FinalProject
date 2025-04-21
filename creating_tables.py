@@ -12,9 +12,10 @@ def create_tables():
     cur.execute("""
         CREATE TABLE IF NOT EXISTS Meals (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            name TEXT UNIQUE,
+            name TEXT,
             restaurant TEXT,
-            rating REAL
+            rating REAL,
+            UNIQUE(name, restaurant)
         )
     """)
     cur.execute("""
@@ -35,7 +36,7 @@ def create_tables():
             popularity REAL,
             dish_type TEXT,
             cuisine TEXT,
-            FOREIGN KEY(meal_id) REFERENCES Meals(id))
+            FOREIGN KEY(meal_id) REFERENCES Meals(id)
         )
     """)
     conn.commit()
