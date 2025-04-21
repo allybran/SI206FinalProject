@@ -44,5 +44,4 @@ def get_nutrition_facts():
     conn.close()
 
 if __name__ == "__main__":
-    get_nutrition_data()
-    
+    get_nutrition_facts()
