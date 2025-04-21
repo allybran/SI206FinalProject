@@ -23,6 +23,18 @@ def connect_db():
     conn = sqlite3.connect("meals.db")
     cur = conn.cursor()
     return conn, cur
+
+# create meals and nutrition tables
+def create_tables():
+    conn, cur = connect_db()
+    cur.execute("""
+        CREATE TABLE IF NOT EXISTS Meals (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            name TEXT UNIQUE,
+            restaurant TEXT,
+            rating REAL
+        )
+    """)
     
 
 #searching nutrition info for each popular meal 
