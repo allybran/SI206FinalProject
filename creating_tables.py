@@ -1,3 +1,4 @@
+import sqlite3
 
 #connects to the database
 def connect_db():
@@ -25,6 +26,16 @@ def create_tables():
             sugar_g REAL,
             protein_g REAL,
             FOREIGN KEY(meal_id) REFERENCES Meals(id)
+        )
+    """)
+    cur.execute("""
+        CREATE TABLE IF NOT EXISTS Recipes (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            meal_id INTEGER,
+            popularity REAL,
+            dish_type TEXT,
+            cuisine TEXT,
+            FOREIGN KEY(meal_id) REFERENCES Meals(id))
         )
     """)
     conn.commit()
