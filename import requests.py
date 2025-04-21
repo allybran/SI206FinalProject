@@ -48,6 +48,27 @@ def create_tables():
     """)
     conn.commit()
     conn.close()
+
+    # load meals from custom JSON 
+    #limits to 25 per run
+def load_meals_json(filename="yelp_data.json"):
+    with open(filename, "r") as f:
+        all_meals = json.load(f)
+
+    conn, cur = connect_db()
+    count = 0
+    for item in all_meals:
+        if item.get("restaurant name") and item.get("Popular_dish") and isinstance(item.get("rating"), (int, float)):
+            try:
+                cur.execute("INSERT OR IGNORE INTO Meals (name, restaurant, rating) VALUES (?, ?, ?)", 
+                            (item["Popular_dish"], item["restaurant name"], item["rating"]))
+                count += 1
+                if count >= 25:
+                    break
+            except:
+                continue
+    conn.commit()
+    conn.close()
     
 
 #searching nutrition info for each popular meal 
