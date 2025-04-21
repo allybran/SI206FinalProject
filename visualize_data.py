@@ -3,7 +3,7 @@
 import sqlite3
 import pandas as pd 
 import seaborn as sns
-import matplotlib.pylot as plt 
+import matplotlib.pyplot as plt 
 
 def connect_db():
     return sqlite3.connect("meals.db") #connect to meals database
@@ -29,11 +29,22 @@ def make_visuals(): #creating graphs
     plt.tight_layout()
     plt.show()
 
-     # Scatterplot - calories vs popularity
+    # Scatterplot - calories vs popularity
     sns.scatterplot(data=df, x="calories", y="popularity")
     plt.title("Calories vs Popularity")
     plt.tight_layout()
     plt.show()
+
+    # stacked bar chart - 10 meals with macronutrients 
+    df.set_index("name")[["fat_g", "sugar_g", "protein_g"]].head(10).plot(kind="bar", stacked=True)
+    plt.title("Macronutrient Breakdown")
+    plt.ylabel("Grams")
+    plt.xticks(rotation=45, ha='right')
+    plt.tight_layout()
+    plt.show()
+
+if __name__ == "__main__":
+    make_visuals()
 
 
 
