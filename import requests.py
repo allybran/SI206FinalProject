@@ -2,12 +2,8 @@
 #Lauren Starr and Ally Brangham
 #Group Name: Ann Arbor Foodies
 
-<<<<<<< HEAD
-comment
 
 
-=======
->>>>>>> 70c3813 (minor updates + comments)
 import sqlite3
 import json
 import requests
@@ -108,7 +104,6 @@ def get_nutrition_facts():
 conn.commit()
 conn.close()
 
-<<<<<<< HEAD
 #combine meal + nutrition data and write it to a text file
 #edit
 def process_data():
@@ -125,5 +120,3 @@ def process_data():
     with open("output.txt", "w") as f:
         for r in results:
             f.write(f"{r[0]} | Rating: {r[1]} | Calories: {r[2]} | Fat: {r[3]}g | Sugar: {r[4]}g | Protein: {r[5]}g\n")
-=======
->>>>>>> 70c3813 (minor updates + comments)
