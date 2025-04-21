@@ -144,3 +144,9 @@ def make_visuals():
     plt.title("Top 10 Meals by Rating")
     plt.tight_layout()
     plt.show()
+
+    # scatterplot: calories vs rating
+    sns.scatterplot(data=df, x="calories", y="rating")
+    plt.title("Calories vs Rating")
+    plt.tight_layout()
+    plt.show()
