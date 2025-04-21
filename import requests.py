@@ -117,6 +117,18 @@ def process_data():
     results = cur.fetchall()
     conn.close()
 
+# Write results to output.txt for analysis
     with open("output.txt", "w") as f:
         for r in results:
             f.write(f"{r[0]} | Rating: {r[1]} | Calories: {r[2]} | Fat: {r[3]}g | Sugar: {r[4]}g | Protein: {r[5]}g\n")
+
+# get meal and nutrition data for graphs
+def load_data_for_viz():
+    conn = sqlite3.connect("meals.db")
+    df = pd.read_sql_query("""
+        SELECT Meals.name, Meals.rating, Nutrition.calories, Nutrition.fat_g, Nutrition.sugar_g, Nutrition.protein_g
+        FROM Meals
+        JOIN Nutrition ON Meals.id = Nutrition.meal_id
+    """, conn)
+    conn.close()
+    return df
