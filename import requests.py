@@ -35,30 +35,44 @@ def create_tables():
             rating REAL
         )
     """)
+    cur.execute("""
+        CREATE TABLE IF NOT EXISTS Nutrition (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            meal_id INTEGER,
+            calories INTEGER,
+            fat_g REAL,
+            sugar_g REAL,
+            protein_g REAL,
+            FOREIGN KEY(meal_id) REFERENCES Meals(id)
+        )
+    """)
+    conn.commit()
+    conn.close()
     
 
 #searching nutrition info for each popular meal 
 def get_nutrition_facts(): 
     conn, cur = connect_db()
-    cur.execute("SELECT id, name FROM meals") #gets IF name and meals from the 
+    cur.execute("SELECT id, name FROM meals") 
     meals = cur.fetchall()
-
+    
+    #inputting my personalized api keys
     headers = {
         "x-app-id": app_id,
         "x-app-key": app_key,
         "Content-Type": "application/json",
     }
     url = "https://trackapi.nutritionix.com/v2/natural/nutrients" 
-    count = 0
+    count = 0 #keeping track of how many foods i put into the api
     
     for meal_id, food_item in meals: 
         try: 
             response =requests.post(url, headers=headers, json={"query":food_item})
             food = response.json()["foods"][0] #this is going to accept the first match of the search
             cur.execute("""
-                INSERT OR IGNORE INTO Nutrition (meal_id, calories, fat_grams, sugar_grams, protein_grams 
-                FROM meals 
-                JOIN Nutrition ON Meals.id = Nutrition.meal_id
-            """, conn)
-            conn.close()
-            return df 
+                INSERT OR IGNORE INTO Nutrition (meal_id, calories, fat_grams, sugar_grams, protein_grams)
+                VALUES (?, ?, ?, ?, ?)
+        """,(meal_id, food["nf_calories"], food["nf_total_fat"], food["nf_sugars"], food["nf_protein"]))
+        count += 1 
+        if count >= 25: 
+            break
