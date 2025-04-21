@@ -3,9 +3,17 @@
 import sqlite3
 import requests
 
+app_id = "7b857982"
+app_key = "147987eb843d733fd4bd746545c15e0d"
+
+#connects to the database
+def connect_db():
+    conn = sqlite3.connect("meals.db")
 
 def get_nutrition_facts(): 
-    conn, cur = connect_db()
+    conn= connect_db()
+    cur = conn.cursor()
+
     cur.execute("SELECT id, name FROM meals") #SQL SELECT query
     meals = cur.fetchall()
     
@@ -32,5 +40,9 @@ def get_nutrition_facts():
                 break
         except: 
             continue
-conn.commit()
-conn.close()
+    conn.commit()
+    conn.close()
+
+if __name__ == "__main__":
+    get_nutrition_data()
+    
