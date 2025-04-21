@@ -8,7 +8,7 @@ app_key = "147987eb843d733fd4bd746545c15e0d"
 
 #connects to the database
 def connect_db():
-    conn = sqlite3.connect("meals.db")
+    return sqlite3.connect("meals.db")
 
 def get_nutrition_facts(): 
     conn= connect_db()
@@ -32,7 +32,7 @@ def get_nutrition_facts():
             food = response.json()["foods"][0] #this is going to accept the first match of the search
             #inserting nutrition info with SQL parameters
             cur.execute(""" 
-                INSERT OR IGNORE INTO Nutrition (meal_id, calories, fat_grams, sugar_grams, protein_grams)
+                INSERT OR IGNORE INTO Nutrition (meal_id, calories, fat_g, sugar_g, protein_g)
                 VALUES (?, ?, ?, ?, ?)
             """,(meal_id, food["nf_calories"], food["nf_total_fat"], food["nf_sugars"], food["nf_protein"]))
             count += 1 
