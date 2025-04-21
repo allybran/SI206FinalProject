@@ -1,6 +1,7 @@
 #SI 206 Final Project
 #Lauren Starr and Ally Brangham
 #Group Name: Ann Arbor Foodies
+# COmment
 
 
 
@@ -34,25 +35,12 @@ def create_tables():
             rating REAL
         )
     """)
-    cur.execute("""
-        CREATE TABLE IF NOT EXISTS Nutrition (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            meal_id INTEGER,
-            calories INTEGER,
-            fat_g REAL,
-            sugar_g REAL,
-            protein_g REAL,
-            FOREIGN KEY(meal_id) REFERENCES Meals(id)
-        )
-    """)
-    conn.commit()
-    conn.close()
-
+    
 
 #searching nutrition info for each popular meal 
 def get_nutrition_facts(): 
     conn, cur = connect_db()
-    cur.execute("SELECT id, name FROM meals")
+    cur.execute("SELECT id, name FROM meals") #gets IF name and meals from the 
     meals = cur.fetchall()
 
     headers = {
@@ -67,23 +55,10 @@ def get_nutrition_facts():
         try: 
             response =requests.post(url, headers=headers, json={"query":food_item})
             food = response.json()["foods"][0] #this is going to accept the first match of the search
-            
-    
-
-
-        if result["foods"]: 
-            food = result["foods"][0] 
-            print(f"Nutrition info for: {food['food_name'].title()}")
-            print(f"Calories: {food['nf_calories']} kcal")
-            print(f"Total fat: {food['nf_total_fat']} grams")
-            print(f"Sugar: {food['nf_sugars']} grams")
-            print(f"Protein: {food['nf_protein']} grams")
-        else: 
-            print("No results found")
-    else:
-        print("Error:", response.status_code, response.text)
-    
-#sample practice: 
-search_food("French fries")
-
-        
+            cur.execute("""
+                INSERT OR IGNORE INTO Nutrition (meal_id, calories, fat_grams, sugar_grams, protein_grams 
+                FROM meals 
+                JOIN Nutrition ON Meals.id = Nutrition.meal_id
+            """, conn)
+            conn.close()
+            return df 
