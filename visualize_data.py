@@ -8,7 +8,7 @@ import matplotlib.pylot as plt
 def connect_db():
     return sqlite3.connect("meals.db") #connect to meals database
 
-def load_data_for_visualization()
+def load_data_for_visualization(): #grab the data we are going to use
     conn = connect_db()
     df = pd.read_sql_query("""
         SELECT Meals.name, Meals.rating, Recipes.popularity, Nutrition.calories, Nutrition.fat_g, Nutrition.sugar_g, Nutrition.protein_g
@@ -18,4 +18,20 @@ def load_data_for_visualization()
     """, conn)
     conn.close()
     return df
+
+def make_visuals(): #creating graphs
+    df = load_data_for_visualization()
+    #bar chart of 10 most popular recipes 
+    top10 = df.sort_values("popularity", ascending=False).head(10)
+    sns.barplot(data=top10, x="name", y="popularity")
+    plt.xticks(rotation=45, ha='right')  # rotate labels for readability
+    plt.title("Top 10 Recipes by Popularity")
+    plt.tight_layout()
+    plt.show()
+
+
+
+
+
+
 
