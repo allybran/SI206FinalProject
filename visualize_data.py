@@ -28,22 +28,30 @@ def make_visuals(): #creating graphs
     print(df.shape)
 
     #trying to convert columns to numbers 
-    numeric_columns = ["fat_g", "sugar_g", "protein_g"]
+    numeric_columns = ["calories", "fat_g", "sugar_g", "protein_g", "rating"]
     for column in numeric_columns:
         df[column] = pd.to_numeric(df[column], errors="coerce")
 
-    #bar chart of 10 most popular recipes 
+    df["name"] = df["name"].astype(str)
+    df = df.dropna(subset=["rating", "name"]) # Drop any rows with missing ratings or names
+
+     
     top10 = df.sort_values("rating", ascending=False).head(10)
+
+    #bar chart of 10 most popular recipes
     sns.barplot(data=top10, x="name", y="rating")
     plt.xticks(rotation=45, ha='right')
     plt.title("Top 10 Meals by Yelp Rating")
+    plt.ylabel("Rating")
+    plt.ylim(0, 5)
     plt.tight_layout()
     plt.show()
-
 
     # Scatterplot - calories vs popularity
     sns.scatterplot(data=df, x="calories", y="rating")
     plt.title("Calories vs Yelp Rating")
+    plt.xlabel("Calories")
+    plt.ylabel("Rating")
     plt.tight_layout()
     plt.show()
 
