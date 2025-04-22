@@ -1,0 +1,180 @@
+Avocado Toast | Rating: 4.4 | Dish Type:  | Cuisine:  | Calories: 188.97 | Fat: 11.42g | Sugar: 1.81g | Protein: 3.84g
+Avocado Toast | Rating: 4.4 | Dish Type:  | Cuisine:  | Calories: 188.97 | Fat: 11.42g | Sugar: 1.81g | Protein: 3.84g
+Avocado Toast | Rating: 4.4 | Dish Type:  | Cuisine:  | Calories: 188.97 | Fat: 11.42g | Sugar: 1.81g | Protein: 3.84g
+Biscuit | Rating: 4.3 | Dish Type:  | Cuisine:  | Calories: 211.8 | Fat: 9.78g | Sugar: 1.31g | Protein: 4.2g
+Biscuit | Rating: 4.3 | Dish Type:  | Cuisine:  | Calories: 211.8 | Fat: 9.78g | Sugar: 1.31g | Protein: 4.2g
+Biscuit | Rating: 4.3 | Dish Type:  | Cuisine:  | Calories: 211.8 | Fat: 9.78g | Sugar: 1.31g | Protein: 4.2g
+Cheeseburger | Rating: 4.4 | Dish Type:  | Cuisine:  | Calories: 535.31 | Fat: 28.66g | Sugar: 7.16g | Protein: 30.27g
+Cheeseburger | Rating: 4.4 | Dish Type:  | Cuisine:  | Calories: 535.31 | Fat: 28.66g | Sugar: 7.16g | Protein: 30.27g
+Cheeseburger | Rating: 4.4 | Dish Type:  | Cuisine:  | Calories: 535.31 | Fat: 28.66g | Sugar: 7.16g | Protein: 30.27g
+Chicken Tenders | Rating: 4.1 | Dish Type:  | Cuisine:  | Calories: 111.74 | Fat: 6.15g | Sugar: 0.09g | Protein: 6.99g
+Chicken Tenders | Rating: 4.1 | Dish Type:  | Cuisine:  | Calories: 111.74 | Fat: 6.15g | Sugar: 0.09g | Protein: 6.99g
+Chicken Tenders | Rating: 4.1 | Dish Type:  | Cuisine:  | Calories: 111.74 | Fat: 6.15g | Sugar: 0.09g | Protein: 6.99g
+Filet Mignon | Rating: 3.9 | Dish Type:  | Cuisine:  | Calories: 226.95 | Fat: 14.55g | Sugar: 0.0g | Protein: 22.49g
+Filet Mignon | Rating: 3.9 | Dish Type:  | Cuisine:  | Calories: 226.95 | Fat: 14.55g | Sugar: 0.0g | Protein: 22.49g
+Filet Mignon | Rating: 3.9 | Dish Type:  | Cuisine:  | Calories: 226.95 | Fat: 14.55g | Sugar: 0.0g | Protein: 22.49g
+French toast | Rating: 4.6 | Dish Type:  | Cuisine:  | Calories: 219.42 | Fat: 10.71g | Sugar: 3.98g | Protein: 7.28g
+French toast | Rating: 4.6 | Dish Type:  | Cuisine:  | Calories: 219.42 | Fat: 10.71g | Sugar: 3.98g | Protein: 7.28g
+French toast | Rating: 4.6 | Dish Type:  | Cuisine:  | Calories: 219.42 | Fat: 10.71g | Sugar: 3.98g | Protein: 7.28g
+Fried Chicken | Rating: 4.0 | Dish Type:  | Cuisine:  | Calories: 376.6 | Fat: 20.89g | Sugar: 0.0g | Protein: 39.98g
+Fried Chicken | Rating: 4.0 | Dish Type:  | Cuisine:  | Calories: 376.6 | Fat: 20.89g | Sugar: 0.0g | Protein: 39.98g
+Fried Chicken | Rating: 4.0 | Dish Type:  | Cuisine:  | Calories: 376.6 | Fat: 20.89g | Sugar: 0.0g | Protein: 39.98g
+Fried Rice | Rating: 4.0 | Dish Type:  | Cuisine:  | Calories: 238.38 | Fat: 4.06g | Sugar: 0.77g | Protein: 5.55g
+Fried Rice | Rating: 4.0 | Dish Type:  | Cuisine:  | Calories: 238.38 | Fat: 4.06g | Sugar: 0.77g | Protein: 5.55g
+Fried Rice | Rating: 4.0 | Dish Type:  | Cuisine:  | Calories: 238.38 | Fat: 4.06g | Sugar: 0.77g | Protein: 5.55g
+Huevos Rancheros | Rating: 4.0 | Dish Type:  | Cuisine:  | Calories: 643.79 | Fat: 42.85g | Sugar: 5.17g | Protein: 28.55g
+Huevos Rancheros | Rating: 4.0 | Dish Type:  | Cuisine:  | Calories: 643.79 | Fat: 42.85g | Sugar: 5.17g | Protein: 28.55g
+Huevos Rancheros | Rating: 4.0 | Dish Type:  | Cuisine:  | Calories: 643.79 | Fat: 42.85g | Sugar: 5.17g | Protein: 28.55g
+Pizza | Rating: 4.2 | Dish Type:  | Cuisine:  | Calories: 284.62 | Fat: 10.37g | Sugar: 3.83g | Protein: 12.19g
+Pizza | Rating: 4.2 | Dish Type:  | Cuisine:  | Calories: 284.62 | Fat: 10.37g | Sugar: 3.83g | Protein: 12.19g
+Pizza | Rating: 4.2 | Dish Type:  | Cuisine:  | Calories: 284.62 | Fat: 10.37g | Sugar: 3.83g | Protein: 12.19g
+Pizza | Rating: 3.9 | Dish Type:  | Cuisine:  | Calories: 284.62 | Fat: 10.37g | Sugar: 3.83g | Protein: 12.19g
+Pizza | Rating: 3.9 | Dish Type:  | Cuisine:  | Calories: 284.62 | Fat: 10.37g | Sugar: 3.83g | Protein: 12.19g
+Pizza | Rating: 3.9 | Dish Type:  | Cuisine:  | Calories: 284.62 | Fat: 10.37g | Sugar: 3.83g | Protein: 12.19g
+Pork Bun | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 217.49 | Fat: 4.13g | Sugar: 4.07g | Protein: 8.8g
+Pork Bun | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 217.49 | Fat: 4.13g | Sugar: 4.07g | Protein: 8.8g
+Pork Bun | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 217.49 | Fat: 4.13g | Sugar: 4.07g | Protein: 8.8g
+Pork bun | Rating: 4.6 | Dish Type:  | Cuisine:  | Calories: 217.49 | Fat: 4.13g | Sugar: 4.07g | Protein: 8.8g
+Pork bun | Rating: 4.6 | Dish Type:  | Cuisine:  | Calories: 217.49 | Fat: 4.13g | Sugar: 4.07g | Protein: 8.8g
+Pork bun | Rating: 4.6 | Dish Type:  | Cuisine:  | Calories: 217.49 | Fat: 4.13g | Sugar: 4.07g | Protein: 8.8g
+Pulled Pork | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 418.32 | Fat: 11.01g | Sugar: 37.85g | Protein: 32.84g
+Pulled Pork | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 418.32 | Fat: 11.01g | Sugar: 37.85g | Protein: 32.84g
+Pulled Pork | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 418.32 | Fat: 11.01g | Sugar: 37.85g | Protein: 32.84g
+Quesadilla | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 713.92 | Fat: 44.78g | Sugar: 4.29g | Protein: 30.9g
+Quesadilla | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 713.92 | Fat: 44.78g | Sugar: 4.29g | Protein: 30.9g
+Quesadilla | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 713.92 | Fat: 44.78g | Sugar: 4.29g | Protein: 30.9g
+Ramen | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 954.18 | Fat: 35.03g | Sugar: 6.73g | Protein: 47.7g
+Ramen | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 954.18 | Fat: 35.03g | Sugar: 6.73g | Protein: 47.7g
+Ramen | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 954.18 | Fat: 35.03g | Sugar: 6.73g | Protein: 47.7g
+Scallion Pancake | Rating: 4.2 | Dish Type:  | Cuisine:  | Calories: 173.1 | Fat: 4.38g | Sugar: 0.41g | Protein: 4.03g
+Scallion Pancake | Rating: 4.2 | Dish Type:  | Cuisine:  | Calories: 173.1 | Fat: 4.38g | Sugar: 0.41g | Protein: 4.03g
+Scallion Pancake | Rating: 4.2 | Dish Type:  | Cuisine:  | Calories: 173.1 | Fat: 4.38g | Sugar: 0.41g | Protein: 4.03g
+Spring Rolls | Rating: 4.1 | Dish Type:  | Cuisine:  | Calories: 148.3 | Fat: 6.22g | Sugar: 0.88g | Protein: 3.75g
+Spring Rolls | Rating: 4.1 | Dish Type:  | Cuisine:  | Calories: 148.3 | Fat: 6.22g | Sugar: 0.88g | Protein: 3.75g
+Spring Rolls | Rating: 4.1 | Dish Type:  | Cuisine:  | Calories: 148.3 | Fat: 6.22g | Sugar: 0.88g | Protein: 3.75g
+Trout | Rating: 4.4 | Dish Type:  | Cuisine:  | Calories: 117.8 | Fat: 5.25g | Sugar: Noneg | Protein: 16.51g
+Trout | Rating: 4.4 | Dish Type:  | Cuisine:  | Calories: 117.8 | Fat: 5.25g | Sugar: Noneg | Protein: 16.51g
+Trout | Rating: 4.4 | Dish Type:  | Cuisine:  | Calories: 117.8 | Fat: 5.25g | Sugar: Noneg | Protein: 16.51g
+fish taco | Rating: 4.2 | Dish Type:  | Cuisine:  | Calories: 243.52 | Fat: 11.96g | Sugar: 1.38g | Protein: 16.45g
+fish taco | Rating: 4.2 | Dish Type:  | Cuisine:  | Calories: 243.52 | Fat: 11.96g | Sugar: 1.38g | Protein: 16.45g
+fish taco | Rating: 4.2 | Dish Type:  | Cuisine:  | Calories: 243.52 | Fat: 11.96g | Sugar: 1.38g | Protein: 16.45g
+Avocado Toast | Rating: 4.4 | Dish Type:  | Cuisine:  | Calories: 188.97 | Fat: 11.42g | Sugar: 1.81g | Protein: 3.84g
+Avocado Toast | Rating: 4.4 | Dish Type:  | Cuisine:  | Calories: 188.97 | Fat: 11.42g | Sugar: 1.81g | Protein: 3.84g
+Avocado Toast | Rating: 4.4 | Dish Type:  | Cuisine:  | Calories: 188.97 | Fat: 11.42g | Sugar: 1.81g | Protein: 3.84g
+Biscuit | Rating: 4.3 | Dish Type:  | Cuisine:  | Calories: 211.8 | Fat: 9.78g | Sugar: 1.31g | Protein: 4.2g
+Biscuit | Rating: 4.3 | Dish Type:  | Cuisine:  | Calories: 211.8 | Fat: 9.78g | Sugar: 1.31g | Protein: 4.2g
+Biscuit | Rating: 4.3 | Dish Type:  | Cuisine:  | Calories: 211.8 | Fat: 9.78g | Sugar: 1.31g | Protein: 4.2g
+Cheeseburger | Rating: 4.4 | Dish Type:  | Cuisine:  | Calories: 535.31 | Fat: 28.66g | Sugar: 7.16g | Protein: 30.27g
+Cheeseburger | Rating: 4.4 | Dish Type:  | Cuisine:  | Calories: 535.31 | Fat: 28.66g | Sugar: 7.16g | Protein: 30.27g
+Cheeseburger | Rating: 4.4 | Dish Type:  | Cuisine:  | Calories: 535.31 | Fat: 28.66g | Sugar: 7.16g | Protein: 30.27g
+Chicken Tenders | Rating: 4.1 | Dish Type:  | Cuisine:  | Calories: 111.74 | Fat: 6.15g | Sugar: 0.09g | Protein: 6.99g
+Chicken Tenders | Rating: 4.1 | Dish Type:  | Cuisine:  | Calories: 111.74 | Fat: 6.15g | Sugar: 0.09g | Protein: 6.99g
+Chicken Tenders | Rating: 4.1 | Dish Type:  | Cuisine:  | Calories: 111.74 | Fat: 6.15g | Sugar: 0.09g | Protein: 6.99g
+Filet Mignon | Rating: 3.9 | Dish Type:  | Cuisine:  | Calories: 226.95 | Fat: 14.55g | Sugar: 0.0g | Protein: 22.49g
+Filet Mignon | Rating: 3.9 | Dish Type:  | Cuisine:  | Calories: 226.95 | Fat: 14.55g | Sugar: 0.0g | Protein: 22.49g
+Filet Mignon | Rating: 3.9 | Dish Type:  | Cuisine:  | Calories: 226.95 | Fat: 14.55g | Sugar: 0.0g | Protein: 22.49g
+French toast | Rating: 4.6 | Dish Type:  | Cuisine:  | Calories: 219.42 | Fat: 10.71g | Sugar: 3.98g | Protein: 7.28g
+French toast | Rating: 4.6 | Dish Type:  | Cuisine:  | Calories: 219.42 | Fat: 10.71g | Sugar: 3.98g | Protein: 7.28g
+French toast | Rating: 4.6 | Dish Type:  | Cuisine:  | Calories: 219.42 | Fat: 10.71g | Sugar: 3.98g | Protein: 7.28g
+Fried Chicken | Rating: 4.0 | Dish Type:  | Cuisine:  | Calories: 376.6 | Fat: 20.89g | Sugar: 0.0g | Protein: 39.98g
+Fried Chicken | Rating: 4.0 | Dish Type:  | Cuisine:  | Calories: 376.6 | Fat: 20.89g | Sugar: 0.0g | Protein: 39.98g
+Fried Chicken | Rating: 4.0 | Dish Type:  | Cuisine:  | Calories: 376.6 | Fat: 20.89g | Sugar: 0.0g | Protein: 39.98g
+Fried Rice | Rating: 4.0 | Dish Type:  | Cuisine:  | Calories: 238.38 | Fat: 4.06g | Sugar: 0.77g | Protein: 5.55g
+Fried Rice | Rating: 4.0 | Dish Type:  | Cuisine:  | Calories: 238.38 | Fat: 4.06g | Sugar: 0.77g | Protein: 5.55g
+Fried Rice | Rating: 4.0 | Dish Type:  | Cuisine:  | Calories: 238.38 | Fat: 4.06g | Sugar: 0.77g | Protein: 5.55g
+Huevos Rancheros | Rating: 4.0 | Dish Type:  | Cuisine:  | Calories: 643.79 | Fat: 42.85g | Sugar: 5.17g | Protein: 28.55g
+Huevos Rancheros | Rating: 4.0 | Dish Type:  | Cuisine:  | Calories: 643.79 | Fat: 42.85g | Sugar: 5.17g | Protein: 28.55g
+Huevos Rancheros | Rating: 4.0 | Dish Type:  | Cuisine:  | Calories: 643.79 | Fat: 42.85g | Sugar: 5.17g | Protein: 28.55g
+Pizza | Rating: 4.2 | Dish Type:  | Cuisine:  | Calories: 284.62 | Fat: 10.37g | Sugar: 3.83g | Protein: 12.19g
+Pizza | Rating: 4.2 | Dish Type:  | Cuisine:  | Calories: 284.62 | Fat: 10.37g | Sugar: 3.83g | Protein: 12.19g
+Pizza | Rating: 4.2 | Dish Type:  | Cuisine:  | Calories: 284.62 | Fat: 10.37g | Sugar: 3.83g | Protein: 12.19g
+Pizza | Rating: 3.9 | Dish Type:  | Cuisine:  | Calories: 284.62 | Fat: 10.37g | Sugar: 3.83g | Protein: 12.19g
+Pizza | Rating: 3.9 | Dish Type:  | Cuisine:  | Calories: 284.62 | Fat: 10.37g | Sugar: 3.83g | Protein: 12.19g
+Pizza | Rating: 3.9 | Dish Type:  | Cuisine:  | Calories: 284.62 | Fat: 10.37g | Sugar: 3.83g | Protein: 12.19g
+Pork Bun | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 217.49 | Fat: 4.13g | Sugar: 4.07g | Protein: 8.8g
+Pork Bun | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 217.49 | Fat: 4.13g | Sugar: 4.07g | Protein: 8.8g
+Pork Bun | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 217.49 | Fat: 4.13g | Sugar: 4.07g | Protein: 8.8g
+Pork bun | Rating: 4.6 | Dish Type:  | Cuisine:  | Calories: 217.49 | Fat: 4.13g | Sugar: 4.07g | Protein: 8.8g
+Pork bun | Rating: 4.6 | Dish Type:  | Cuisine:  | Calories: 217.49 | Fat: 4.13g | Sugar: 4.07g | Protein: 8.8g
+Pork bun | Rating: 4.6 | Dish Type:  | Cuisine:  | Calories: 217.49 | Fat: 4.13g | Sugar: 4.07g | Protein: 8.8g
+Pulled Pork | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 418.32 | Fat: 11.01g | Sugar: 37.85g | Protein: 32.84g
+Pulled Pork | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 418.32 | Fat: 11.01g | Sugar: 37.85g | Protein: 32.84g
+Pulled Pork | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 418.32 | Fat: 11.01g | Sugar: 37.85g | Protein: 32.84g
+Quesadilla | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 713.92 | Fat: 44.78g | Sugar: 4.29g | Protein: 30.9g
+Quesadilla | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 713.92 | Fat: 44.78g | Sugar: 4.29g | Protein: 30.9g
+Quesadilla | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 713.92 | Fat: 44.78g | Sugar: 4.29g | Protein: 30.9g
+Ramen | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 954.18 | Fat: 35.03g | Sugar: 6.73g | Protein: 47.7g
+Ramen | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 954.18 | Fat: 35.03g | Sugar: 6.73g | Protein: 47.7g
+Ramen | Rating: 3.8 | Dish Type:  | Cuisine:  | Calories: 954.18 | Fat: 35.03g | Sugar: 6.73g | Protein: 47.7g
+Scallion Pancake | Rating: 4.2 | Dish Type:  | Cuisine:  | Calories: 173.1 | Fat: 4.38g | Sugar: 0.41g | Protein: 4.03g
+Scallion Pancake | Rating: 4.2 | Dish Type:  | Cuisine:  | Calories: 173.1 | Fat: 4.38g | Sugar: 0.41g | Protein: 4.03g
+Scallion Pancake | Rating: 4.2 | Dish Type:  | Cuisine:  | Calories: 173.1 | Fat: 4.38g | Sugar: 0.41g | Protein: 4.03g
+Spring Rolls | Rating: 4.1 | Dish Type:  | Cuisine:  | Calories: 148.3 | Fat: 6.22g | Sugar: 0.88g | Protein: 3.75g
+Spring Rolls | Rating: 4.1 | Dish Type:  | Cuisine:  | Calories: 148.3 | Fat: 6.22g | Sugar: 0.88g | Protein: 3.75g
+Spring Rolls | Rating: 4.1 | Dish Type:  | Cuisine:  | Calories: 148.3 | Fat: 6.22g | Sugar: 0.88g | Protein: 3.75g
+Trout | Rating: 4.4 | Dish Type:  | Cuisine:  | Calories: 117.8 | Fat: 5.25g | Sugar: Noneg | Protein: 16.51g
+Trout | Rating: 4.4 | Dish Type:  | Cuisine:  | Calories: 117.8 | Fat: 5.25g | Sugar: Noneg | Protein: 16.51g
+Trout | Rating: 4.4 | Dish Type:  | Cuisine:  | Calories: 117.8 | Fat: 5.25g | Sugar: Noneg | Protein: 16.51g
+fish taco | Rating: 4.2 | Dish Type:  | Cuisine:  | Calories: 243.52 | Fat: 11.96g | Sugar: 1.38g | Protein: 16.45g
+fish taco | Rating: 4.2 | Dish Type:  | Cuisine:  | Calories: 243.52 | Fat: 11.96g | Sugar: 1.38g | Protein: 16.45g
+fish taco | Rating: 4.2 | Dish Type:  | Cuisine:  | Calories: 243.52 | Fat: 11.96g | Sugar: 1.38g | Protein: 16.45g
+Avocado Toast | Rating: 4.4 | Dish Type: None | Cuisine: N/A | Calories: 188.97 | Fat: 11.42g | Sugar: 1.81g | Protein: 3.84g
+Avocado Toast | Rating: 4.4 | Dish Type: None | Cuisine: N/A | Calories: 188.97 | Fat: 11.42g | Sugar: 1.81g | Protein: 3.84g
+Avocado Toast | Rating: 4.4 | Dish Type: None | Cuisine: N/A | Calories: 188.97 | Fat: 11.42g | Sugar: 1.81g | Protein: 3.84g
+Biscuit | Rating: 4.3 | Dish Type: None | Cuisine: N/A | Calories: 211.8 | Fat: 9.78g | Sugar: 1.31g | Protein: 4.2g
+Biscuit | Rating: 4.3 | Dish Type: None | Cuisine: N/A | Calories: 211.8 | Fat: 9.78g | Sugar: 1.31g | Protein: 4.2g
+Biscuit | Rating: 4.3 | Dish Type: None | Cuisine: N/A | Calories: 211.8 | Fat: 9.78g | Sugar: 1.31g | Protein: 4.2g
+Cheeseburger | Rating: 4.4 | Dish Type: None | Cuisine: American | Calories: 535.31 | Fat: 28.66g | Sugar: 7.16g | Protein: 30.27g
+Cheeseburger | Rating: 4.4 | Dish Type: None | Cuisine: American | Calories: 535.31 | Fat: 28.66g | Sugar: 7.16g | Protein: 30.27g
+Cheeseburger | Rating: 4.4 | Dish Type: None | Cuisine: American | Calories: 535.31 | Fat: 28.66g | Sugar: 7.16g | Protein: 30.27g
+Chicken Tenders | Rating: 4.1 | Dish Type: None | Cuisine: American | Calories: 111.74 | Fat: 6.15g | Sugar: 0.09g | Protein: 6.99g
+Chicken Tenders | Rating: 4.1 | Dish Type: None | Cuisine: American | Calories: 111.74 | Fat: 6.15g | Sugar: 0.09g | Protein: 6.99g
+Chicken Tenders | Rating: 4.1 | Dish Type: None | Cuisine: American | Calories: 111.74 | Fat: 6.15g | Sugar: 0.09g | Protein: 6.99g
+Filet Mignon | Rating: 3.9 | Dish Type: None | Cuisine: Japanese | Calories: 226.95 | Fat: 14.55g | Sugar: 0.0g | Protein: 22.49g
+Filet Mignon | Rating: 3.9 | Dish Type: None | Cuisine: Japanese | Calories: 226.95 | Fat: 14.55g | Sugar: 0.0g | Protein: 22.49g
+Filet Mignon | Rating: 3.9 | Dish Type: None | Cuisine: Japanese | Calories: 226.95 | Fat: 14.55g | Sugar: 0.0g | Protein: 22.49g
+French toast | Rating: 4.6 | Dish Type: None | Cuisine: American | Calories: 219.42 | Fat: 10.71g | Sugar: 3.98g | Protein: 7.28g
+French toast | Rating: 4.6 | Dish Type: None | Cuisine: American | Calories: 219.42 | Fat: 10.71g | Sugar: 3.98g | Protein: 7.28g
+French toast | Rating: 4.6 | Dish Type: None | Cuisine: American | Calories: 219.42 | Fat: 10.71g | Sugar: 3.98g | Protein: 7.28g
+Fried Chicken | Rating: 4.0 | Dish Type: None | Cuisine: Southern | Calories: 376.6 | Fat: 20.89g | Sugar: 0.0g | Protein: 39.98g
+Fried Chicken | Rating: 4.0 | Dish Type: None | Cuisine: Southern | Calories: 376.6 | Fat: 20.89g | Sugar: 0.0g | Protein: 39.98g
+Fried Chicken | Rating: 4.0 | Dish Type: None | Cuisine: Southern | Calories: 376.6 | Fat: 20.89g | Sugar: 0.0g | Protein: 39.98g
+Fried Rice | Rating: 4.0 | Dish Type: None | Cuisine: Chinese | Calories: 238.38 | Fat: 4.06g | Sugar: 0.77g | Protein: 5.55g
+Fried Rice | Rating: 4.0 | Dish Type: None | Cuisine: Chinese | Calories: 238.38 | Fat: 4.06g | Sugar: 0.77g | Protein: 5.55g
+Fried Rice | Rating: 4.0 | Dish Type: None | Cuisine: Chinese | Calories: 238.38 | Fat: 4.06g | Sugar: 0.77g | Protein: 5.55g
+Huevos Rancheros | Rating: 4.0 | Dish Type: None | Cuisine: Mexican | Calories: 643.79 | Fat: 42.85g | Sugar: 5.17g | Protein: 28.55g
+Huevos Rancheros | Rating: 4.0 | Dish Type: None | Cuisine: Mexican | Calories: 643.79 | Fat: 42.85g | Sugar: 5.17g | Protein: 28.55g
+Huevos Rancheros | Rating: 4.0 | Dish Type: None | Cuisine: Mexican | Calories: 643.79 | Fat: 42.85g | Sugar: 5.17g | Protein: 28.55g
+Pizza | Rating: 4.2 | Dish Type: None | Cuisine: Mediterranean | Calories: 284.62 | Fat: 10.37g | Sugar: 3.83g | Protein: 12.19g
+Pizza | Rating: 4.2 | Dish Type: None | Cuisine: Mediterranean | Calories: 284.62 | Fat: 10.37g | Sugar: 3.83g | Protein: 12.19g
+Pizza | Rating: 4.2 | Dish Type: None | Cuisine: Mediterranean | Calories: 284.62 | Fat: 10.37g | Sugar: 3.83g | Protein: 12.19g
+Pizza | Rating: 3.9 | Dish Type: None | Cuisine: Mediterranean | Calories: 284.62 | Fat: 10.37g | Sugar: 3.83g | Protein: 12.19g
+Pizza | Rating: 3.9 | Dish Type: None | Cuisine: Mediterranean | Calories: 284.62 | Fat: 10.37g | Sugar: 3.83g | Protein: 12.19g
+Pizza | Rating: 3.9 | Dish Type: None | Cuisine: Mediterranean | Calories: 284.62 | Fat: 10.37g | Sugar: 3.83g | Protein: 12.19g
+Pork Bun | Rating: 3.8 | Dish Type: None | Cuisine: bbq | Calories: 217.49 | Fat: 4.13g | Sugar: 4.07g | Protein: 8.8g
+Pork Bun | Rating: 3.8 | Dish Type: None | Cuisine: bbq | Calories: 217.49 | Fat: 4.13g | Sugar: 4.07g | Protein: 8.8g
+Pork Bun | Rating: 3.8 | Dish Type: None | Cuisine: bbq | Calories: 217.49 | Fat: 4.13g | Sugar: 4.07g | Protein: 8.8g
+Pork bun | Rating: 4.6 | Dish Type: None | Cuisine: bbq | Calories: 217.49 | Fat: 4.13g | Sugar: 4.07g | Protein: 8.8g
+Pork bun | Rating: 4.6 | Dish Type: None | Cuisine: bbq | Calories: 217.49 | Fat: 4.13g | Sugar: 4.07g | Protein: 8.8g
+Pork bun | Rating: 4.6 | Dish Type: None | Cuisine: bbq | Calories: 217.49 | Fat: 4.13g | Sugar: 4.07g | Protein: 8.8g
+Pulled Pork | Rating: 3.8 | Dish Type: None | Cuisine: American | Calories: 418.32 | Fat: 11.01g | Sugar: 37.85g | Protein: 32.84g
+Pulled Pork | Rating: 3.8 | Dish Type: None | Cuisine: American | Calories: 418.32 | Fat: 11.01g | Sugar: 37.85g | Protein: 32.84g
+Pulled Pork | Rating: 3.8 | Dish Type: None | Cuisine: American | Calories: 418.32 | Fat: 11.01g | Sugar: 37.85g | Protein: 32.84g
+Quesadilla | Rating: 3.8 | Dish Type: None | Cuisine: Mexican | Calories: 713.92 | Fat: 44.78g | Sugar: 4.29g | Protein: 30.9g
+Quesadilla | Rating: 3.8 | Dish Type: None | Cuisine: Mexican | Calories: 713.92 | Fat: 44.78g | Sugar: 4.29g | Protein: 30.9g
+Quesadilla | Rating: 3.8 | Dish Type: None | Cuisine: Mexican | Calories: 713.92 | Fat: 44.78g | Sugar: 4.29g | Protein: 30.9g
+Ramen | Rating: 3.8 | Dish Type: None | Cuisine: Japanese | Calories: 954.18 | Fat: 35.03g | Sugar: 6.73g | Protein: 47.7g
+Ramen | Rating: 3.8 | Dish Type: None | Cuisine: Japanese | Calories: 954.18 | Fat: 35.03g | Sugar: 6.73g | Protein: 47.7g
+Ramen | Rating: 3.8 | Dish Type: None | Cuisine: Japanese | Calories: 954.18 | Fat: 35.03g | Sugar: 6.73g | Protein: 47.7g
+Scallion Pancake | Rating: 4.2 | Dish Type: None | Cuisine: Chinese | Calories: 173.1 | Fat: 4.38g | Sugar: 0.41g | Protein: 4.03g
+Scallion Pancake | Rating: 4.2 | Dish Type: None | Cuisine: Chinese | Calories: 173.1 | Fat: 4.38g | Sugar: 0.41g | Protein: 4.03g
+Scallion Pancake | Rating: 4.2 | Dish Type: None | Cuisine: Chinese | Calories: 173.1 | Fat: 4.38g | Sugar: 0.41g | Protein: 4.03g
+Spring Rolls | Rating: 4.1 | Dish Type: None | Cuisine: Vietnamese | Calories: 148.3 | Fat: 6.22g | Sugar: 0.88g | Protein: 3.75g
+Spring Rolls | Rating: 4.1 | Dish Type: None | Cuisine: Vietnamese | Calories: 148.3 | Fat: 6.22g | Sugar: 0.88g | Protein: 3.75g
+Spring Rolls | Rating: 4.1 | Dish Type: None | Cuisine: Vietnamese | Calories: 148.3 | Fat: 6.22g | Sugar: 0.88g | Protein: 3.75g
+Trout | Rating: 4.4 | Dish Type: None | Cuisine: N/A | Calories: 117.8 | Fat: 5.25g | Sugar: Noneg | Protein: 16.51g
+Trout | Rating: 4.4 | Dish Type: None | Cuisine: N/A | Calories: 117.8 | Fat: 5.25g | Sugar: Noneg | Protein: 16.51g
+Trout | Rating: 4.4 | Dish Type: None | Cuisine: N/A | Calories: 117.8 | Fat: 5.25g | Sugar: Noneg | Protein: 16.51g
+fish taco | Rating: 4.2 | Dish Type: None | Cuisine: Mexican | Calories: 243.52 | Fat: 11.96g | Sugar: 1.38g | Protein: 16.45g
+fish taco | Rating: 4.2 | Dish Type: None | Cuisine: Mexican | Calories: 243.52 | Fat: 11.96g | Sugar: 1.38g | Protein: 16.45g
+fish taco | Rating: 4.2 | Dish Type: None | Cuisine: Mexican | Calories: 243.52 | Fat: 11.96g | Sugar: 1.38g | Protein: 16.45g

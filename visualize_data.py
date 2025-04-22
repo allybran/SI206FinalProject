@@ -12,10 +12,9 @@ def connect_db():
 
 def load_data_for_visualization(): #grab the data we are going to use
     conn = connect_db()
-    conn = connect_db()
     df = pd.read_sql_query("""
-    SELECT Meals.name, Meals.rating, Recipes.popularity, Recipes.cuisine,
-    Nutrition.calories, Nutrition.fat_g, Nutrition.sugar_g, Nutrition.protein_g
+        SELECT Meals.name, Meals.rating, Recipes.popularity, Recipes.cuisine,
+            Nutrition.calories, Nutrition.fat_g, Nutrition.sugar_g, Nutrition.protein_g
         FROM Meals
         JOIN Nutrition ON Meals.id = Nutrition.meal_id
         JOIN Recipes ON Meals.id = Recipes.meal_id
@@ -77,6 +76,19 @@ def make_visuals(): #creating graphs
     plt.tight_layout()
     plt.show()
 
+    #bar chart: avg calories by cuisine (sorted)
+    conn = connect_db()
+    avg_df = pd.read_sql_query("SELECT * FROM AvgCaloriesByCuisine", conn)
+    conn.close()
+
+    avg_df = avg_df.sort_values("avg_calories")
+    plt.figure(figsize=(10, 6))
+    sns.barplot(data=avg_df, x="avg_calories", y="cuisine")
+    plt.title("Average Calories by Cuisine")
+    plt.xlabel("Average Calories")
+    plt.ylabel("Cuisine")
+    plt.tight_layout()
+    plt.show()
 
 if __name__ == "__main__":
     make_visuals()

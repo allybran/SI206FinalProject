@@ -1,14 +1,17 @@
 
+# get_spoonacular_data.py (fixed version using original structure and keeping new_inserts)
+
 import sqlite3
 import requests
+import time
 
 # Spoonacular API key
-spoonacular_key = "eed87667990b48b1bd92b9b5404acf8b"
-# Connect to the SQLite database
+spoonacular_key = "99481001640947f08633a3dffe571ddf"
+
+# Connect to the meals db
 def connect_db():
     return sqlite3.connect("meals.db")
 
-# Get recipe info from Spoonacular and store in the database
 def get_spoonacular_data():
     conn = connect_db()
     cur = conn.cursor()
@@ -16,50 +19,49 @@ def get_spoonacular_data():
     cur.execute("SELECT id, name FROM Meals")
     meals = cur.fetchall()
 
-    base_url = "https://api.spoonacular.com/recipes/complexSearch"
     new_inserts = 0
+    for meal in meals:
+        if new_inserts >= 25:
+            break
 
-    # Loop through each meal in the database
-    for meal_id, name in meals:
-        try:
-            print(f"spoonacular for: {name}")  # debug
+        meal_id = meal[0]
+        name = meal[1]
 
-            params = {
-                "query": name,
-                "apiKey": spoonacular_key,
-                "number": 1
-            }
-            # Making API request to get recipe info
-            res = requests.get(base_url, params=params)
-            data = res.json()
+        base_url = "https://api.spoonacular.com/recipes/complexSearch"
+        params = {
+            "query": name,
+            "number": 1,
+            "addRecipeInformation": True,
+            "apiKey": spoonacular_key
+        }
 
-            # If recipe found, extract the info
-            if "results" in data and data["results"]:
-                recipe = data["results"][0]
-                popularity = recipe.get("aggregateLikes", 0)
-                dish_types = ", ".join(recipe.get("dishTypes", []))
-                cuisines = ", ".join(recipe.get("cuisines", []))
+        response = requests.get(base_url, params=params)
+        if response.status_code == 200:
+            data = response.json()
+            results = data.get("results")
 
-                # Insert the recipe info into the Recipes table
+            if results:
+                result = results[0]
+                popularity = result.get("aggregateLikes", 0)
+                cuisines = result.get("cuisines", [])
+                cuisine = cuisines[0] if cuisines else "N/A"
+
                 cur.execute("""
-                    INSERT OR IGNORE INTO Recipes (meal_id, popularity, dish_type, cuisine)
-                    VALUES (?, ?, ?, ?)
-                """, (meal_id, popularity, dish_types, cuisines))
+                    INSERT OR IGNORE INTO Recipes (meal_id, popularity, cuisine)
+                    VALUES (?, ?, ?)
+                """, (meal_id, popularity, cuisine))
 
-                print(f"recipe: {name} (popularity: {popularity})")  # debugging
-                
-                #limit to 25 new inserts
-                if cur.rowcount == 1: 
-                    new_inserts += 1
-                if new_inserts >= 25: 
-                    break
+                print(f"Added: {name} | Cuisine: {cuisine} | Popularity: {popularity}")
+                new_inserts += 1
 
-        except Exception as e:
-            print(f"Error fetching Spoonacular data for '{name}':", e)
-            continue
+        else:
+            print(f"Error fetching data for {name}: {response.status_code}")
+
+        time.sleep(1.1)
 
     conn.commit()
     conn.close()
+    print("Finished storing Spoonacular data.")
 
 if __name__ == "__main__":
     get_spoonacular_data()

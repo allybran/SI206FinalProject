@@ -2,8 +2,8 @@
 import sqlite3
 import requests
 
-app_id = "43757b8c"
-app_key = "5579b5609b68c6e70cef22acc616602b"
+app_id = "d3e47e0e"
+app_key = "081c4729c485c1331441b64559189dde"
 
 #connects to the database
 def connect_db():
@@ -46,7 +46,7 @@ def get_nutrition_facts():
                 new_inserts += 1
             if new_inserts >= 25:
                 break 
-            
+
         except: 
             continue
     conn.commit()
