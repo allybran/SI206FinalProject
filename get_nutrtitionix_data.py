@@ -7,9 +7,7 @@ app_key = "147987eb843d733fd4bd746545c15e0d"
 
 #connects to the database
 def connect_db():
-    conn = sqlite3.connect("meals.db")
-    cur = conn.cursor()
-    return conn, cur
+    return sqlite3.connect("mealsreal.db")
 
 def get_nutrition_facts(): 
     conn, cur = connect_db()
@@ -28,7 +26,7 @@ def get_nutrition_facts():
     
     for meal_id, food_item in meals: #loop through each meal in the database
         try: 
-            response =requests.post(url, headers=headers, json={"query":food_item})
+            response = requests.post(url, headers=headers, json={"query": food_item})
 
             #debug checking
             print(f"Querying Nutritionix for: {food_item}")
@@ -40,7 +38,7 @@ def get_nutrition_facts():
             cur.execute(""" 
                 INSERT OR IGNORE INTO Nutrition (meal_id, calories, fat_g, sugar_g, protein_g)
                 VALUES (?, ?, ?, ?, ?)
-            """,(meal_id, food["nf_calories"], food["nf_total_fat"], food["nf_sugars"], food["nf_protein"]))
+            """, (meal_id, food["nf_calories"], food["nf_total_fat"], food["nf_sugars"], food["nf_protein"]))
             print(food_item)
             count += 1 
             if count >= 25: 
