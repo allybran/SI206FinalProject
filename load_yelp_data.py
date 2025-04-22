@@ -2,7 +2,7 @@ import sqlite3
 import json
 
 def connect_db():
-    return sqlite3.connect("mealsreal.db")
+    return sqlite3.connect("meals.db")
 
 def load_meals():
     conn = connect_db()

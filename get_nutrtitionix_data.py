@@ -2,17 +2,18 @@
 import sqlite3
 import requests
 
-app_id = "7b857982"
-app_key = "147987eb843d733fd4bd746545c15e0d"
+app_id = "43757b8c"
+app_key = "5579b5609b68c6e70cef22acc616602b"
 
 #connects to the database
 def connect_db():
-    return sqlite3.connect("mealsreal.db")
+    return sqlite3.connect("meals.db")
 
 def get_nutrition_facts(): 
-    conn, cur = connect_db()
+    conn = connect_db()
+    cur = conn.cursor()
 
-    cur.execute("SELECT id, name FROM meals") #SQL SELECT query
+    cur.execute("SELECT id, name FROM Meals") #SQL SELECT query
     meals = cur.fetchall()
     
     #inputting my personalized api keys

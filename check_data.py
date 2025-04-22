@@ -17,7 +17,7 @@ def check_data():
         except Exception as e:
             print(f"Error checking {table}: {e}")
 
-    #Check if the join between all 3 tables would return results
+    # Check if the join between all 3 tables would return results
     try:
         cur.execute("""
             SELECT COUNT(*)

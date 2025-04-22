@@ -3,11 +3,10 @@ import sqlite3
 import requests
 
 # Spoonacular API key
-spoonacular_key = "d87ae0d7f57e4098872d6785d197b3de"
-
+spoonacular_key = "eed87667990b48b1bd92b9b5404acf8b"
 # Connect to the SQLite database
 def connect_db():
-    return sqlite3.connect("mealsreal.db")
+    return sqlite3.connect("meals.db")
 
 # Get recipe info from Spoonacular and store in the database
 def get_spoonacular_data():
