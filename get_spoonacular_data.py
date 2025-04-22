@@ -17,7 +17,7 @@ def get_spoonacular_data():
     meals = cur.fetchall()
 
     base_url = "https://api.spoonacular.com/recipes/complexSearch"
-    count = 0
+    new_inserts = 0
 
     # Loop through each meal in the database
     for meal_id, name in meals:
@@ -47,8 +47,11 @@ def get_spoonacular_data():
                 """, (meal_id, popularity, dish_types, cuisines))
 
                 print(f"recipe: {name} (popularity: {popularity})")  # debugging
-                count += 1
-                if count >= 25:
+                
+                #limit to 25 new inserts
+                if cur.rowcount == 1: 
+                    new_inserts += 1
+                if new_inserts >= 25: 
                     break
 
         except Exception as e:
