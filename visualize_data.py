@@ -33,7 +33,7 @@ def make_visuals(): #creating graphs
         df[column] = pd.to_numeric(df[column], errors="coerce")
 
     #bar chart of 10 most popular recipes 
-    top10 = df.sort_values("rating", ascending=False).head(10)
+    plt.figure(figsize=(12,6)) 
     sns.barplot(data=top10, x="name", y="rating")
     plt.xticks(rotation=45, ha='right')
     plt.title("Top 10 Meals by Yelp Rating")
