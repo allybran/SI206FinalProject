@@ -8,6 +8,8 @@ import matplotlib.pyplot as plt
 def connect_db():
     return sqlite3.connect("meals.db") #connect to meals database
 
+
+
 def load_data_for_visualization(): #grab the data we are going to use
     conn = connect_db()
     df = pd.read_sql_query("""
@@ -20,7 +22,12 @@ def load_data_for_visualization(): #grab the data we are going to use
     return df
 
 def make_visuals(): #creating graphs
-    df = load_data_for_visualization()
+    df = load_data_for_visualization() 
+    #trying to convert columns to numbers 
+    numeric_columns = ["fat_g", "sugar_g", "protein_g"]
+    for column in numeric_columns:
+        df[column] = pd.to_numeric(df[column], errors="coerce")
+
     #bar chart of 10 most popular recipes 
     top10 = df.sort_values("popularity", ascending=False).head(10)
     sns.barplot(data=top10, x="name", y="popularity")
