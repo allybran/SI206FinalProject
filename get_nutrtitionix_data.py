@@ -23,7 +23,7 @@ def get_nutrition_facts():
         "Content-Type": "application/json",
     }
     url = "https://trackapi.nutritionix.com/v2/natural/nutrients" 
-    count = 0 #keeping track of how many foods i put into the api 
+    new_inserts = 0 #keeping track of how many foods i put into the api 
     
     for meal_id, food_item in meals: #loop through each meal in the database
         try: 
@@ -41,9 +41,12 @@ def get_nutrition_facts():
                 VALUES (?, ?, ?, ?, ?)
             """, (meal_id, food["nf_calories"], food["nf_total_fat"], food["nf_sugars"], food["nf_protein"]))
             print(food_item)
-            count += 1 
-            if count >= 25: 
-                break
+            
+            if cur.rowcount == 1:
+                new_inserts += 1
+            if new_inserts >= 25:
+                break 
+            
         except: 
             continue
     conn.commit()
