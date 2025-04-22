@@ -6,9 +6,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt 
 
 def connect_db():
-    return sqlite3.connect("meals.db") #connect to meals database
-
-
+    return sqlite3.connect("mealsreal.db") #connect to meals database
 
 def load_data_for_visualization(): #grab the data we are going to use
     conn = connect_db()
@@ -35,12 +33,9 @@ def make_visuals(): #creating graphs
     df["name"] = df["name"].astype(str)
     df = df.dropna(subset=["rating", "name"]) # Drop any rows with missing ratings or names
 
-     
     top10 = df.sort_values("rating", ascending=False).head(10)
-
-    
+  
     #bar chart of 10 most popular recipes
-    #sns.barplot(data=top10, x="name", y="rating")
     df.set_index("name")[["rating"]].head(10).plot(kind="bar", stacked=False)
     plt.xticks(rotation=45, ha='right')
     plt.title("Top 10 Meals by Yelp Rating")
@@ -49,7 +44,7 @@ def make_visuals(): #creating graphs
     plt.tight_layout()
     plt.show()
 
-    # Scatterplot - calories vs popularity
+    #Scatterplot - calories vs popularity
     sns.scatterplot(data=df, x="calories", y="rating")
     plt.title("Calories vs Yelp Rating")
     plt.xlabel("Calories")
@@ -67,10 +62,3 @@ def make_visuals(): #creating graphs
 
 if __name__ == "__main__":
     make_visuals()
-
-
-
-
-
-
-
