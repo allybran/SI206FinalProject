@@ -22,7 +22,7 @@ def get_foodish_images():
 
     new_inserts = 0
     for meal in meals:
-        if cur.rowncount == 1:
+        if cur.rowcount == 1:
             new_inserts +=1
         if new_inserts >= 25:  # just grab 25 random images
             break
