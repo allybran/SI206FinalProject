@@ -23,6 +23,8 @@ def get_spoonacular_data():
      # Loop through each meal in the database
     for meal_id, name in meals:
         try:
+            print(f"spoonacular for: {name}") #debug
+
             params = {
                 "query": name,
                 "apiKey": spoonacular_key,
@@ -33,17 +35,19 @@ def get_spoonacular_data():
             data = res.json()
 
              # If recipe found, extract the info
-            if data["results"]:
+            if "results" in data and data["results"]:
                 recipe = data["results"][0]
                 popularity = recipe.get("aggregateLikes", 0)
                 dish_types = ", ".join(recipe.get("dishTypes", []))
                 cuisines = ", ".join(recipe.get("cuisines", []))
+
             # Insert the recipe info into the Recipes table
                 cur.execute("""
                     INSERT OR IGNORE INTO Recipes (meal_id, popularity, dish_type, cuisine)
                     VALUES (?, ?, ?, ?)
                 """, (meal_id, popularity, dish_types, cuisines))
 
+                print(f"recipe: {name} (popularity: {popularity})") #debugging
                 count += 1
                 if count >= 25:
                     break
