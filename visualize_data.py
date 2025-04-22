@@ -38,8 +38,10 @@ def make_visuals(): #creating graphs
      
     top10 = df.sort_values("rating", ascending=False).head(10)
 
+    
     #bar chart of 10 most popular recipes
-    sns.barplot(data=top10, x="name", y="rating")
+    #sns.barplot(data=top10, x="name", y="rating")
+    df.set_index("name")[["rating"]].head(10).plot(kind="bar", stacked=False)
     plt.xticks(rotation=45, ha='right')
     plt.title("Top 10 Meals by Yelp Rating")
     plt.ylabel("Rating")
