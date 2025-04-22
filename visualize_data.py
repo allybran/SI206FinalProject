@@ -22,7 +22,12 @@ def load_data_for_visualization(): #grab the data we are going to use
     return df
 
 def make_visuals(): #creating graphs
-    df = load_data_for_visualization() 
+
+    df = load_data_for_visualization()
+
+    print(df.head(20))  # shows us what data exists
+    print(df.shape)     # shows how many rows & columns
+
     #trying to convert columns to numbers 
     numeric_columns = ["fat_g", "sugar_g", "protein_g"]
     for column in numeric_columns:
